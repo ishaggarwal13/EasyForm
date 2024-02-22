@@ -1,0 +1,126 @@
+/* App.css */
+
+.App {
+  font-family: Arial, sans-serif;
+}
+
+/* Navbar.css */
+
+.navbar {
+  background-color: #5b6e7d;
+  padding: 10px;
+}
+
+.navbar-list {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.navbar-item {
+  margin: 0 10px;
+}
+
+.navbar-link {
+  color: white;
+  text-decoration: none;
+}
+
+.navbar-logo {
+  width: 30px;
+  margin-right: 10px;
+}
+
+/* Home styles */
+
+.home {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.user-details {
+  color: #597082;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 20px auto;
+  text-align: left;
+  display: inline-block;
+  background-color: white;
+  box-shadow: 0 0 10px #597082;
+  width: 400px;
+}
+
+/* FormAction styles */
+
+.form-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  height: calc(100vh - 50px);
+  margin-top: 50px;
+}
+
+.form-action {
+  text-align: center;
+  background-color: white;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 0 10px #5b6e7d;
+  width: 400px;
+}
+
+.form {
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  padding: 20px;
+  margin: 20px auto;
+  max-width: 400px;
+}
+
+.form-header,
+.home-header {
+  color: #5ebfac;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-label {
+  color: #597082;
+  display: block;
+  margin-bottom: 5px;
+}
+
+.form-input {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-sizing: border-box;
+  transition: border-color 0.3s ease;
+}
+
+.form-input:focus {
+  outline: none;
+  border-color: #007bff;
+}
+
+.form-button {
+  background-color: #5bc0ac;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  box-sizing: border-box;
+  transition: background-color 0.3s ease;
+}
+
+.form-button:hover {
+  background-color: #597082;
+}
