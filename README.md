@@ -25,11 +25,13 @@ npm install</code></pre>
     <li>View Responses: On the home page, you can view the submitted form details in a user-friendly layout.</li>
   </ol>
 
-  <h2>Screenshots</h2>
+  <h2>Form Page</h2>
   <figure>
     <img src="create-form.png" alt="Create and fill out forms with ease.">
     <figcaption>Create and fill out forms with ease.</figcaption>
   </figure>
+  
+  <h2>Home Page</h2>
   <figure>
     <img src="view-responses.png" alt="View submitted form details on the home page.">
     <figcaption>View submitted form details on the home page.</figcaption>
